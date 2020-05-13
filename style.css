@@ -119,8 +119,8 @@ header a:hover {
 .third {
   margin: 2rem;
   background-color: gray;
-  width: 60vh;
-  height: 80vh;
+  width: 381px;
+  height: 508px;
   border-radius: 0.2rem;
   transition: transform 0.5s ease-in;
 }
@@ -210,7 +210,6 @@ header a:hover {
 .first[data-aos="fade-right"]:hover,
 .second[data-aos="fade-right"]:hover,
 .third[data-aos="fade-right"]:hover {
-  transform: scale(1.06);
   color: aliceblue;
   cursor: pointer;
   text-shadow: 3px 3px 3px black;
@@ -232,6 +231,22 @@ footer {
 
 footer h4 {
   font-weight: 100;
+}
+
+@media screen and (max-width: 450px) {
+  .hero_section {
+    height: 75vh;
+  }
+
+  .info {
+    margin-top: 6rem;
+  }
+
+  .third {
+    justify-content: flex-start;
+    width: 360px;
+    height: 108px;
+  }
 }
 
 @media screen and (max-width: 1224px) {
