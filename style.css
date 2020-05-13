@@ -241,7 +241,7 @@ footer h4 {
   .info {
     margin-top: 6rem;
   }
-
+  .first,
   .third {
     justify-content: flex-start;
     width: 360px;
