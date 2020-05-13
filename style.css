@@ -235,7 +235,7 @@ footer h4 {
 
 @media screen and (max-width: 450px) {
   .hero_section {
-    height: 75vh;
+    height: 80vh;
   }
 
   .info {
